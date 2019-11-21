@@ -6,4 +6,9 @@ export class Inspiration {
     console.log("back end response");
     return jsonifiedResponse;
   }
+  async apiPic() {
+    let response2 = await fetch(`https://dog.ceo/api/breeds/image/random`)
+    let jsonifiedResponse2 = await response2.json();
+    return jsonifiedResponse2;
+  }
 }

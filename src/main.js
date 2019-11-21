@@ -14,16 +14,19 @@ console.log("button click");
     (async () => {
       let newInspiration = new Inspiration();
       let response = await newInspiration.apiQuote();
+      let response2 = await newInspiration.apiPic();
       console.log(newInspiration);
-      getElements(response)
-      console.log(response);
+      getElements(response,response2);
+      // getElements(response2);
+      console.log(response2);
 
     })();
 
 
-    function getElements(response) {
+    function getElements(response, response2) {
       $('.showQuote').html(`${response.quoteText}`);
-      $('.showKitten').attr();//might need to pass in source and variable that will store the api image
+      $('.showAuthor').html(`${response.quoteAuthor}`);
+      $('.showPuppy').attr("src", `${response2.message}`);
     }
   });
 });

@@ -1,0 +1,17 @@
+body {
+  background-color: #ABC4AB;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+button {
+  background-color: #DCC9B6;
+  color: #DCC9B6;
+}
+
+h1 {
+  color: #6D4C3D
+}
+
+.showQuote, .showAuthor {
+  font-size: 24px;
+}
