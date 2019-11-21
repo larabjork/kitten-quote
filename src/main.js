@@ -3,14 +3,27 @@ import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.css';
-//
-// $(document).ready(function() {
-//   $('#ping-pong-form').submit(function(event) {
-//     event.preventDefault();
-//     var goal = $('#goal').val();
-//     var output = pingPong(goal);
-//     output.forEach(function(element) {
-//       $('#solution').append("<li>" + element + "</li>");
-//     });
-//   });
-// });
+import { Inspiration } from "./project.js";
+
+$(document).ready(function() {
+  $('.stupid').submit(function(event) {
+    event.preventDefault();
+    // const name = $('#name').val();
+    // $('#name').val("");
+console.log("button click");
+    (async () => {
+      let newInspiration = new Inspiration();
+      let response = await newInspiration.apiQuote();
+      console.log(newInspiration);
+      getElements(response)
+      console.log(response);
+
+    })();
+
+
+    function getElements(response) {
+      $('.showQuote').html(`${response.quoteText}`);
+      $('.showKitten').attr();//might need to pass in source and variable that will store the api image
+    }
+  });
+});
