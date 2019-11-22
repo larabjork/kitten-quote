@@ -8,17 +8,15 @@ import { Inspiration } from "./project.js";
 $(document).ready(function() {
   $('.stupid').submit(function(event) {
     event.preventDefault();
-    // const name = $('#name').val();
-    // $('#name').val("");
-console.log("button click");
+    // const dogBreed = $('#dogBreed').val();
+    // console.log(dogBreed + "this one");
+    // $('#dogBreed').val("");
+
     (async () => {
       let newInspiration = new Inspiration();
       let response = await newInspiration.apiQuote();
       let response2 = await newInspiration.apiPic();
-      console.log(newInspiration);
       getElements(response,response2);
-      // getElements(response2);
-      console.log(response2);
 
     })();
 

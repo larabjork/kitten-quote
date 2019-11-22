@@ -1,17 +1,10 @@
 <!-- correct project name in package.json and webpack.config -->
 
-#PROJECT NAME
-##Created by PARTNER NAME and Lara Bjork on DATE
+#Having a Ruff Day?
+##Created by Pete Podrid and Lara Bjork on DATE
 ###Project Description
 
-This project was completed as an in-class assignment for the Intermediate JavaScript class CHECK NAME at Epicodus, during a week focused on TITLE FOR WEEK. The task description was as follows:
-
-<!-- This project was completed as an independent project for the Intermediate JavaScript class at Epicodus, at the conclusion of a week focused on test-driven development. The task description was as follows: -->
-
-
-
-###Specifications
-These specs were developed based on the assignment description.
+This project was completed as an in-class assignment for the Intermediate JavaScript class at Epicodus, during a week focused on asynchrony and APIs.
 
 
 ###Technologies Used
@@ -20,13 +13,15 @@ HTML, CSS, JavaScript, Node.js, Chrome Node dev tools, babel 7.6.4, babel plugin
 Project was written using Google Chrome; no other browsers were tested for compatibility.
 
 ###Project Setup instructions
-1. Ensure that you have Node.js installed; check that **node** (v4.0.x or higher) and **npm** (v.3.6.x or higher) are in place.
-2. After cloning the project locally, you can run **npm install -y** to download the necessary dependencies. You can then run **npm run build** to bundle your version of this project. If something doesn't display correctly or goes wrong somehow, please contact us at <PARTNER NAME> and <lara.m.bjork@gmail.com> and we will do our best to troubleshoot for you.
+1. Install this Chrome extension: Allow-Control-Allow-Origin.
+
+2. Ensure that you have Node.js installed; check that **node** (v4.0.x or higher) and **npm** (v.3.6.x or higher) are in place.
+3. After cloning the project locally, you can run **npm install -y** to download the necessary dependencies. You can then run **npm run build** to bundle your version of this project. If something doesn't display correctly or goes wrong somehow, please contact us at <petespodrid@gmail.com> and <lara.m.bjork@gmail.com> and we will do our best to troubleshoot for you.
 
 ###Known Issues and Limitations
-* INSERT AS APPROPRIATE
+* No known issues.
 
 ###License
 This software is licensed under the MIT license.
 
-Copyright (c) 2019 PARTNER NAME  and Lara Bjork
+Copyright (c) 2019 Pete Podrid and Lara Bjork

@@ -6,12 +6,19 @@ body {
 button {
   background-color: #DCC9B6;
   color: #DCC9B6;
+  font-size: 72px;
 }
 
 h1 {
-  color: #6D4C3D
+  color: #6D4C3D;
+  padding-bottom: 24px;
 }
 
 .showQuote, .showAuthor {
   font-size: 24px;
+}
+
+img {
+  max-width: 500px;
+  max-height: 500px;
 }
